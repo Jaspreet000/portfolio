@@ -7,14 +7,17 @@ import {
   FaGraduationCap,
   FaCode,
 } from 'react-icons/fa';
-import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+import { FiFileText, FiExternalLink, FiGithub } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
-import Work6 from './assets/project-6.jpg';
+import Work1 from './assets/projects/project-1.jpg';
+import Work2 from './assets/projects/project-2.jpg';
+import Work3 from './assets/projects/project-3.jpg';
+import Work4 from './assets/projects/project-4.jpg';
+import Work5 from './assets/projects/project-5.jpg';
+import Work6 from './assets/projects/project-6.jpg';
+import Work7 from './assets/projects/project-7.jpg';
+import Work8 from './assets/projects/project-8.jpg';
+import Work9 from './assets/projects/project-9.jpg';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -61,25 +64,25 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Jaspreet',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Singh',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '21 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Indian',
   },
 
   {
@@ -91,57 +94,57 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Tunis',
+    description: 'Ward No. 5, Near Govt. Sen. Sec. School, Parla Bhuntar (Kullu) - 175125, Himachal Pradesh, India',
   },
 
   {
     id: 7,
     title: 'Phone : ',
-    description: '+21621184010',
+    description: '+91 9817048588',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
+    description: 'jaspreetsingh44555@gmail.com',
   },
 
   {
     id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
+    title: 'Github : ',
+    description: 'Jaspreet000',
   },
 
   {
     id: 10,
     title: 'Langages : ',
-    description: 'French, English',
+    description: 'English. Hindi, Punjabi',
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '2+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '20+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '81+',
-    title: 'Happy <br /> Customers',
+    no: '8.2+',
+    title: 'Current <br /> CGPA',
   },
 
   {
     id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
+    no: '10+',
+    title: ' Live <br /> Sites',
   },
 ];
 
@@ -150,54 +153,36 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2023 - PRESENT',
+    title: 'Club Head <span> University </span>',
+    desc: 'Head of the club, responsible for managing the club, organizing events, and mainly in this club, Full Stack Development is taught to the club members.',
   },
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    year: '2023',
+    title: 'Full Stack Development Intern <span> IBM Partner </span>',
+    desc: 'Interned at AllSoft Solutions Pvt. Ltd. , an IBM partner, where I learnt HTML, CSS, JavaScript, MongoDB, and ExpressJS. Contributed to the entire software development life cycle, showcasing proficiency in web development and database management.'
   },
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2021-Present',
+    title: 'B.Tech in CSE <span> ABVGIET </span>',
+    desc: 'Pursuing my B.Tech in Computer Science and Engineering from Atal Bihari Vajpayee Government Institute of Engineering and Technology, Himachal Pradesh, India. Currently in 3rd year with 8.2 CGPA.',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 6,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: '2021',
+    title: 'Senior Secondary <span> Snower Valley Public School </span>',
+    desc: 'Completed my Senior Secondary from Snower Valley Public School, Kullu, Himachal Pradesh, India with 96% i.e. 480/500 marks.',
   },
 ];
 
@@ -205,42 +190,42 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '95',
   },
 
   {
     id: 2,
     title: 'Javascript',
-    percentage: '89',
+    percentage: '92',
   },
 
   {
     id: 3,
-    title: 'Css',
-    percentage: '70',
-  },
-
-  {
-    id: 4,
-    title: 'Php',
-    percentage: '66',
-  },
-
-  {
-    id: 5,
-    title: 'Wordpress',
+    title: 'CSS',
     percentage: '95',
   },
 
   {
+    id: 4,
+    title: 'C++',
+    percentage: '86',
+  },
+
+  {
+    id: 5,
+    title: 'Express.JS',
+    percentage: '87',
+  },
+
+  {
     id: 6,
-    title: 'Jquery',
-    percentage: '50',
+    title: 'Node.JS',
+    percentage: '85',
   },
 
   {
     id: 7,
-    title: 'Angular',
+    title: 'Next.JS',
     percentage: '65',
   },
 
@@ -249,51 +234,63 @@ export const skills = [
     title: 'React',
     percentage: '45',
   },
+  {
+    id: 9,
+    title: 'TypeScript',
+    percentage: '45',
+  },
+  {
+    id: 10,
+    title: 'SEO',
+    percentage: '75',
+  },
+    {
+      id: 11,
+      title: 'Github',
+      percentage: '90',
+    },
+    {
+      id: 12,
+      title: 'Shopify',
+      percentage: '40',
+    },
+    {
+      id: 13,
+      title: 'MongoDB',
+      percentage: '93',
+    },
+    {
+      id: 14,
+      title: 'MySQL',
+      percentage: '85',
+    },
+    {
+      id: 15,
+      title: 'API Development',
+      percentage: '80',
+    },
+    {
+      id: 16,
+      title: 'Communication',
+      percentage: '85',
+    },
 ];
 
 export const portfolio = [
   {
-    id: 1,
-    img: Work1,
-    title: 'Photo Editing',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
-    ],
-  },
-
-  {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'To Do List',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'To Do List Web App',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FiGithub />,
+        title: 'Repo : ',
+        desc: 'https://github.com/Jaspreet000/todolist',
       },
       {
         icon: <FaCode />,
@@ -303,7 +300,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://todolist-tau-tan.vercel.app/',
       },
     ],
   },
@@ -311,27 +308,27 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'Music Player',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Music Player',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FiGithub />,
+        title: 'Repo : ',
+        desc: 'https://github.com/Jaspreet000/music-player',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'Next JS, React JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://music-player-eight-orpin.vercel.app/',
       },
     ],
   },
@@ -339,27 +336,27 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'E-Commerce',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'E-Commerce Site',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FiGithub />,
+        title: 'Repo : ',
+        desc: 'https://github.com/Jaspreet000/e-comm',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'Next JS, React JS, Node JS, Express JS, MongoDB',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://e-comm-two-pied.vercel.app/',
       },
     ],
   },
@@ -367,15 +364,17 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'Clone App',
     details: [
       {
+        icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Gemini Clone',
       },
       {
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FiGithub />,
+        title: 'Repo : ',
+        desc: 'https://github.com/Jaspreet000/gemini-clone-repo',
       },
       {
         title: 'Language : ',
@@ -383,7 +382,7 @@ export const portfolio = [
       },
       {
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://gemini-clone-repo.vercel.app/',
       },
     ],
   },
@@ -391,27 +390,135 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: 'Landing Page',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Landing Page',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FiGithub />,
+        title: 'Repo : ',
+        desc: 'https://github.com/Jaspreet000/landing-page-purehtmlcss',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'HTML, CSS, JavaScript',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        desc: 'https://jaspreet000.github.io/landing-page-purehtmlcss/',
+      },
+    ],
+  },
+  {
+    id: 7,
+    img: Work7,
+    title: 'Secure Sign-Up Page',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Sign-Up Page',
+      },
+      {
+        icon: <FiGithub />,
+        title: 'Repo : ',
+        desc: 'https://github.com/Jaspreet000/signup-page-react-express',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React JS, Express JS, MongoDB',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://signup-page-react-express.vercel.app/',
+      },
+    ],
+  },
+  {
+    id: 8,
+    img: Work8,
+    title: 'Weather API Page',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Weather API Page',
+      },
+      {
+        icon: <FiGithub />,
+        title: 'Repo : ',
+        desc: 'https://github.com/Jaspreet000/weather-app',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://jaspreet000.github.io/weather-app/',
+      },
+    ],
+  },
+  {
+    id: 9,
+    img: Work9,
+    title: 'Landing Page',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Cleverbooks Landing Page',
+      },
+      {
+        icon: <FiGithub />,
+        title: 'Repo : ',
+        desc: 'https://github.com/Jaspreet000/cleverbooks',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://jaspreet000.github.io/cleverbooks/',
+      },
+    ],
+  },
+  {
+    id: 1,
+    img: Work1,
+    title: 'Patchd quiz app',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Quiz Web App',
+      },
+      {
+        icon: <FiGithub />,
+        title: 'Repo : ',
+        desc: 'https://github.com/Jaspreet000/fsprom',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript, Node JS, Express JS, MongoDB',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://patchdquiz.vercel.app/',
       },
     ],
   },
