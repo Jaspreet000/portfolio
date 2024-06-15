@@ -59,7 +59,9 @@ const Contact = () => {
                     <input
                      type="text"
                      placeholder='Your Name'
-                     className='form__control' 
+                     className='form__control'
+                     name="namee"
+                     id="namee"
                      />
                   </div>
 
@@ -67,7 +69,9 @@ const Contact = () => {
                     <input
                      type="email"
                      placeholder='Your Email'
-                     className='form__control' 
+                     className='form__control'
+                     name="email"
+                     id="email"
                      />
                   </div>
 
@@ -75,7 +79,9 @@ const Contact = () => {
                     <input
                      type="text"
                      placeholder='Your Subject'
-                     className='form__control' 
+                     className='form__control'
+                     name="subject"
+                     id="subject"
                      />
                   </div>
                 </div>
@@ -84,10 +90,12 @@ const Contact = () => {
                     <textarea
                      placeholder='Your Message'
                      className="form__control textarea"
+                     name="message"
+                     id="message"
                      ></textarea>
                   </div>
 
-                  <button className='button'>
+                  <button type="submit" className='button'>
                     Send Message
                     <span className='button__icon contact__button-icon'>
                       <FiSend/>
