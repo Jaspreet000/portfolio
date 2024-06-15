@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <form className="contact__form">
+              <form className="contact__form" action="https://getform.io/f/ebpdqvnb" method="POST">
 
                 <div className="form__input-group">
                   <div className="form__input-div">
