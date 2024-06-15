@@ -1,6 +1,5 @@
 import React from "react";
 import Info from "../../components/Info";
-import Stats from "../../components/Stats";
 import { FaDownload } from "react-icons/fa";
 import "./About.css";
 import Skills from "../../components/Skills";
@@ -24,15 +23,24 @@ const About = () => {
               <Info />
             </ul>
 
-            <a href={CV} className="button">
+            <a href={CV} className="button btn-margin">
               Download CV{" "}
               <span className="button__icon">
                 <FaDownload />
               </span>
             </a>
           </div>
-          <div className="stats grid">
+          {/* <div className="stats grid">
             <Stats />
+          </div> */}
+          <div className="stats">
+            <p className="stats__p">
+              I am an aspiring full stack developer specializing in the MERN
+              stack (MongoDB, Express.js, React, Node.js). My passion for coding
+              and continuous learning drives me to create dynamic, responsive,
+              and user-friendly web applications.
+            </p>
+            <p className="stats__p">Currently, I am enhancing my skill set with Next.js, which allows me to build server-rendered React applications with superior performance. With a strong foundation in both front-end and back-end development, I am committed to staying updated with the latest industry trends. This dedication empowers me to tackle complex challenges and contribute effectively to innovative projects.</p>
           </div>
         </div>
       </section>
@@ -57,8 +65,7 @@ const About = () => {
           <div className="resume__data">
             {resume.map((val) => {
               if (val.category === "experience") {
-                return <Resumeitem
-                key={val.id} {...val} />;
+                return <Resumeitem key={val.id} {...val} />;
               }
             })}
           </div>
@@ -66,8 +73,7 @@ const About = () => {
           <div className="resume__data">
             {resume.map((val) => {
               if (val.category === "education") {
-                return <Resumeitem
-                key={val.id} {...val} />;
+                return <Resumeitem key={val.id} {...val} />;
               }
             })}
           </div>

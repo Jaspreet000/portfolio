@@ -20,9 +20,7 @@ const home = () => {
           <p className="home__description">
             An aspiring full stack developer specializing in the MERN stack
             (MongoDB, Express.js, React, Node.js), I am dedicated to creating
-            dynamic, responsive, and user-friendly web applications. My journey
-            in web development has been driven by a passion for coding and a
-            continuous quest for learning new technologies.
+            dynamic, responsive, and user-friendly web applications.
           </p>
 
           <Link to="/about" className="button">
